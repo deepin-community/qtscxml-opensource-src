@@ -1,1 +1,1 @@
-usr/lib/*/libQt5Scxml.la
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5Scxml.la

@@ -1,2 +1,2 @@
-usr/include/*/qt5/QtScxml/5.*
-usr/lib/*/qt5/mkspecs/modules/qt_lib_scxml_private.pri
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtScxml/5.*
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_scxml_private.pri

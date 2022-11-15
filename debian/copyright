@@ -7,11 +7,12 @@ Copyright: 2016-2018 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: debian/*
-Copyright: Scarlett Moore <sgmoore@kde.org>
+Copyright: 2018-2019 Scarlett Moore <sgmoore@kde.org>
+           2019-2022 Dmitry Shachnev <mitya57@debian.org>
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/*
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
