@@ -27,6 +27,7 @@ override_dh_auto_install-arch:
 
 override_dh_auto_test-arch:
 	xvfb-run -a -s "-screen 0 1024x768x24 +extension GLX" \
-		dh_auto_test -- -Ctests/auto
+		dh_auto_test -- -Ctests/auto \
+		LD_LIBRARY_PATH=$(CURDIR)/lib QML2_IMPORT_PATH=$(CURDIR)/qml
 
 override_dh_auto_test-indep:
