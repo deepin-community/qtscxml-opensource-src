@@ -5,18 +5,18 @@ Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
                pkg-kde-tools,
-               qml-module-qttest (>= 5.15.7~),
-               qtbase5-dev (>= 5.15.7~),
-               qtbase5-private-dev (>= 5.15.7~),
-               qtdeclarative5-dev (>= 5.15.7~),
-               qtdeclarative5-private-dev (>= 5.15.7~),
+               qml-module-qttest (>= 5.15.8~),
+               qtbase5-dev (>= 5.15.8~),
+               qtbase5-private-dev (>= 5.15.8~),
+               qtdeclarative5-dev (>= 5.15.8~),
+               qtdeclarative5-private-dev (>= 5.15.8~),
                xauth <!nocheck>,
                xvfb <!nocheck>
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.7~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.7~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.7~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.15.7~) <!nodoc>,
-                     qtdeclarative5-doc-html (>= 5.15.7~) <!nodoc>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.8~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.8~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.8~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.8~) <!nodoc>,
+                     qtdeclarative5-doc-html (>= 5.15.8~) <!nodoc>
 Standards-Version: 4.6.0
 Homepage: https://doc.qt.io/qt-5/qtscxml-index.html
 
@@ -74,7 +74,7 @@ Description: Qt module for creating state machines from SCXML files helper
 Package: libqt5scxml5
 Architecture: any
 Multi-Arch: same
-Provides: qtscxml-abi-5-15-7
+Provides: qtscxml-abi-5-15-8
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt module for creating state machines from SCXML files library
  The Qt SCXML module provides functionality to create state
